@@ -25,47 +25,59 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfn-v5-zii" userLabel="Top View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="274"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sei-mG-yEH">
-                                                <rect key="frame" x="20" y="20" width="182" height="70"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sei-mG-yEH">
+                                                <rect key="frame" x="116.33333333333333" y="102.33333333333334" width="181.33333333333337" height="69.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="58"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Sei-mG-yEH" firstAttribute="centerX" secondItem="Cfn-v5-zii" secondAttribute="centerX" id="0TT-Q3-9hW"/>
+                                            <constraint firstItem="Sei-mG-yEH" firstAttribute="centerY" secondItem="Cfn-v5-zii" secondAttribute="centerY" id="Wgs-0Y-Uhu"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKi-JD-Ew6" userLabel="Bottom View ">
                                         <rect key="frame" x="0.0" y="289" width="414" height="274"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qJP-eb-167">
-                                                <rect key="frame" x="64" y="100" width="287" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qJP-eb-167">
+                                                <rect key="frame" x="64" y="225" width="286" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where we milkin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy4-qU-tql">
-                                                <rect key="frame" x="20" y="20" width="374" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where we milkin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy4-qU-tql">
+                                                <rect key="frame" x="21" y="100" width="372" height="74"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="qJP-eb-167" firstAttribute="top" secondItem="xKi-JD-Ew6" secondAttribute="top" constant="225" id="3aU-Ei-1SG"/>
+                                            <constraint firstItem="fy4-qU-tql" firstAttribute="centerY" secondItem="xKi-JD-Ew6" secondAttribute="centerY" id="5al-Vu-DyG"/>
+                                            <constraint firstItem="fy4-qU-tql" firstAttribute="top" secondItem="xKi-JD-Ew6" secondAttribute="top" constant="100" id="ger-nd-fle"/>
+                                            <constraint firstItem="qJP-eb-167" firstAttribute="leading" secondItem="xKi-JD-Ew6" secondAttribute="leading" constant="64" id="hbv-aV-ZQw"/>
+                                            <constraint firstItem="fy4-qU-tql" firstAttribute="centerX" secondItem="xKi-JD-Ew6" secondAttribute="centerX" id="vbT-tv-QkG"/>
+                                            <constraint firstItem="qJP-eb-167" firstAttribute="centerX" secondItem="fy4-qU-tql" secondAttribute="centerX" id="xHR-VR-DoE"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nx-Wg-RhF" userLabel="Middle View ">
                                         <rect key="frame" x="0.0" y="578" width="414" height="274"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gia-qf-oYA">
-                                                <rect key="frame" x="20" y="20" width="129" height="57"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gia-qf-oYA">
+                                                <rect key="frame" x="167" y="109.66666666666663" width="80" height="55"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <state key="normal" title="Moo!"/>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Gia-qf-oYA" firstAttribute="centerY" secondItem="4nx-Wg-RhF" secondAttribute="centerY" id="WMa-V1-biO"/>
+                                            <constraint firstItem="Gia-qf-oYA" firstAttribute="centerX" secondItem="4nx-Wg-RhF" secondAttribute="centerX" id="o0v-4f-SZz"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
