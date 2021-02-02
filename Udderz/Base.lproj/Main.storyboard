@@ -71,6 +71,9 @@
                                                 <rect key="frame" x="167" y="109.66666666666663" width="80" height="55"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <state key="normal" title="Moo!"/>
+                                                <connections>
+                                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrP-xk-0Tb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
